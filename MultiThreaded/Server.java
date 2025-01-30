@@ -1,9 +1,7 @@
-import java.file.fucntional;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.lang.Thread;
-import java.io.PrintWriter;
 import java.util.function.Consumer;
 
 public class Server {
@@ -20,7 +18,7 @@ public class Server {
             {
                 ioe.printStackTrace();
             }
-        }
+        };
     }
 
     public static void main(String[] args) {
